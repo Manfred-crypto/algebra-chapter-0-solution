@@ -12,7 +12,24 @@ In the following, let $g$ and $h$ be elements of group $G$ if unspecified, and l
     If the answer is no, can we modify the group by a bit (such as removing $0$) to make it under a group for that operation?
 \end{problem}
 \begin{soln}
-    Nani?
+    Just for completeness, the sets are:
+    \begin{enumerate}
+        \ii \varnothing
+        \ii \NN
+        \ii \ZZ
+        \ii \QQ
+        \ii \RR
+        \ii \CC
+    \end{enumerate}
+    Corrosponding groups:
+    \begin{enumerate}
+        \ii \varnothing is not a group because groups need an identity.
+        \ii \NN is not a group under addition or multiplication becuse there is no inverses
+        \ii \ZZ is a group under addition, however it is not a group under multiplication as there is no identity.
+        \ii \QQ is a group under addition. Remove $0$ to get a group under multiplication.
+        \ii Same as \QQ.
+        \ii Same as \QQ, \RR.
+    \end{enumerate}
 \end{soln}
 \begin{problem}
     Prove that $(gh)\inv=h\inv g\inv$.
