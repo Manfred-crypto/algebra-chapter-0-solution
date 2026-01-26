@@ -1,0 +1,15 @@
+\section{}
+\epigraph{\textbb{Definition.} A group is a groupoid with a single object}{Joke}
+\begin{problem}
+    Write a careful proof that every group is the group of isomorphisms of a groupoid. In particular, every group is the group of automorphisms of some object in some category.
+\end{problem}
+\begin{soln}
+    Take the categary $\mathfrak{C}$ with a single object $O$ and $\text{Hom}(O,O)=G$ with composition in $\text{Hom}(O,O)$ given by the operation in $G$. Check everything.
+\end{soln}
+\begin{problem}
+    Consider the sets of numbers listed in \S1.1, and decide which are made into groups by conventional operations such as addition and multiplication.
+    If the answer is no, can we modify the group by a bit (such as removing $0$) to make it under a group for that operation?
+\end{problem}
+\begin{soln}
+    Nani?
+\end{soln}
