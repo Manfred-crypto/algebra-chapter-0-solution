@@ -1,8 +1,9 @@
 \section{}
-In the following, let $g$ and $h$ be elements of group $G$ if unspecified, and let $e$ be the identity.
+In the following, let $G$ be a grouplet $g$ and $h$ be elements of group $G$ if unspecified, and let $e$ be the identity.
 \epigraph{\textbb{Definition.} A group is a groupoid with a single object}{Joke}
 \begin{problem}
-    Write a careful proof that every group is the group of isomorphisms of a groupoid. In particular, every group is the group of automorphisms of some object in some category.
+    Write a careful proof that every group is the group of isomorphisms of a groupoid.
+    In particular, every group is the group of automorphisms of some object in some category.
 \end{problem}
 \begin{soln}
     Take the categary $\mathfrak{C}$ with a single object $O$ and $\text{Hom}(O,O)=G$ with composition in $\text{Hom}(O,O)$ given by the operation in $G$. Check everything.
@@ -42,4 +43,21 @@ In the following, let $g$ and $h$ be elements of group $G$ if unspecified, and l
 \end{problem}
 \begin{soln}
     $gh=g\inv h\inv=(hg)\inv=hg$.
+\end{soln}
+\begin{problem}
+    Show that every row of the Cayley table contains all elements of group exactly once.
+    Similarly, show that in every row of the Cayley table contains all elements of group exactly once.
+\end{problem}
+\begin{soln}
+    For any elements $g$, $h$ and $k$, $gh=gk$ iff $g\inv gh=g\inv gk$ iff $h=k$, so $x\hookrightarrow gx$ is injective, hence surjective and bijective.
+\end{soln}
+\begin{problem}
+	Prove that there is only one possible Cayley Table for $G$ if $G$ has exactly $1$, $2$, or $3$ elements.
+	Analyze the possible multiplication tables for groups with exactly $4$ elements, and show that there are two distinct 		tables, up to reordering the elements of G. Use these tables to prove that all groups with $\leq 4$ elements are commutative.
+	(You are welcome to analyze groups with 5 elements using the same technique, but you will soon know enough about groups to be able to avoid such brute-force approaches.)
+\end{problem}
+\begin{soln}
+	\begin{itemize}
+	\ii Identity must
+	\end{itemize}
 \end{soln}
