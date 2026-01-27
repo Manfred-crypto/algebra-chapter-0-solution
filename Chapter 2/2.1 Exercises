@@ -69,7 +69,10 @@ In the following, let $G$ be a grouplet $g$ and $h$ be elements of group $G$ if 
 				$a\circ b=e$
 			\end{claim*}
 			\begin{proof}
-				Assume on the contrary $a\circ b$
+				Assume on the contrary $a^2=e$. Then $b^2=e$
+				The Cayley table would look like this:
+				\begin{center}\begin{tabular}{c||c|c|c}
+					$\circ$
 			\end{proof}
 	\end{itemize}
 \end{soln}
