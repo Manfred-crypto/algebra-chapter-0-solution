@@ -117,3 +117,9 @@ In the following, let $G$ be a grouplet $g$ and $h$ be elements of group $G$ if 
 \begin{remark}
 	In fact if $|g|=n$, $\left\lvert g^2\right\rvert=\frac{3-(-1)^n}{4}n$
 \end{remark}
+\begin{problem}
+    Show that $\lvert gh\rvert=\lvert hg\rvert
+\end{problem}
+\begin{soln}
+    We only need $\lvert aga\inv\rvert=\lvert g\rvert$.
+    $(aga\inv)^N=ag^Na\inv$, so done.
