@@ -123,3 +123,4 @@ In the following, let $G$ be a grouplet $g$ and $h$ be elements of group $G$ if 
 \begin{soln}
     We only need $\lvert aga\inv\rvert=\lvert g\rvert$.
     $(aga\inv)^N=ag^Na\inv$, so done.
+\end{soln}
