@@ -122,5 +122,5 @@ In the following, let $G$ be a grouplet $g$ and $h$ be elements of group $G$ if 
 \end{problem}
 \begin{soln}
     We only need $\lvert aga\inv\rvert=\lvert g\rvert$.
-    $(aga\inv)^N=ag^Na\inv$, so done.
+    $(aga\inv)^N=ag^Na\inv$, and $aga\inv=e$ iff $g=e$ so done.
 \end{soln}
